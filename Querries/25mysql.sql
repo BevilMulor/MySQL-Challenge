@@ -1,4 +1,4 @@
-#Create a trigger to prevent deleting a project that still has assigned team members:
+__Create a trigger to prevent deleting a project that still has assigned team members:
 CREATE TRIGGER PreventProjectDeletion
 BEFORE DELETE ON Projects
 FOR EACH ROW

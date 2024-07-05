@@ -1,4 +1,4 @@
-#Create a stored procedure to update project team members (remove existing, add new ones):
+__Create a stored procedure to update project team members (remove existing, add new ones):
 CREATE PROCEDURE UpdateProjectTeam (
     IN projectID INT,
     IN newMembers TEXT

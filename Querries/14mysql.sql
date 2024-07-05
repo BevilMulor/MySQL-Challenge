@@ -1,4 +1,4 @@
-#Create a view to show project names and client contact information for projects with a deadline in November 2024:
+__Create a view to show project names and client contact information for projects with a deadline in November 2024:
 CREATE VIEW NovemberProjectsWithClientContact AS
 SELECT Projects.ProjectName, Clients.ContactName, Clients.ContactEmail
 FROM Projects

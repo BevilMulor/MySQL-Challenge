@@ -1,4 +1,4 @@
-#Create a trigger to log any updates made to project records in a separate table for auditing purposes:
+__Create a trigger to log any updates made to project records in a separate table for auditing purposes:
 CREATE TABLE ProjectAuditLog (
     LogID INT AUTO_INCREMENT PRIMARY KEY,
     ProjectID INT,

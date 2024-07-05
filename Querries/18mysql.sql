@@ -1,4 +1,4 @@
-#Create a stored procedure to add a new client and their first project in one call:
+__Create a stored procedure to add a new client and their first project in one call:
 CREATE PROCEDURE AddClientAndProject (
     IN clientName VARCHAR(255),
     IN contactName VARCHAR(255),

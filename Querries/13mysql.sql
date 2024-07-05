@@ -1,4 +1,4 @@
-#Create a view to display project information along with assigned team leads:
+__Create a view to display project information along with assigned team leads:
 CREATE VIEW ProjectWithTeamLeads AS
 SELECT Projects.ProjectName, Employees.EmployeeName AS TeamLead
 FROM Projects

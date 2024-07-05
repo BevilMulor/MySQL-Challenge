@@ -1,4 +1,4 @@
-#Create a trigger to ensure a team lead assigned to a project is a valid employee:
+__Create a trigger to ensure a team lead assigned to a project is a valid employee:
 CREATE TRIGGER ValidateTeamLead
 BEFORE INSERT ON ProjectTeam
 FOR EACH ROW

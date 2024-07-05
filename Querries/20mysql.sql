@@ -1,4 +1,4 @@
-#Create a stored procedure to move completed projects (past deadlines) to an archive table:
+__Create a stored procedure to move completed projects (past deadlines) to an archive table:
 CREATE TABLE ArchivedProjects (
     ProjectID INT PRIMARY KEY,
     ProjectName VARCHAR(255),

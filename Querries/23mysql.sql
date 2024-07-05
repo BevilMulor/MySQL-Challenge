@@ -1,4 +1,4 @@
-#Create a view to display project details along with the total number of team members assigned:
+__Create a view to display project details along with the total number of team members assigned:
 CREATE VIEW ProjectDetailsWithTeamCount AS
 SELECT Projects.ProjectName, Projects.Requirements, Projects.Deadline, COUNT(TeamMembers.EmployeeID) AS TeamMemberCount
 FROM Projects

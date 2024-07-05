@@ -1,4 +1,4 @@
-#Create a function to calculate the number of days remaining until a project deadline:
+__Create a function to calculate the number of days remaining until a project deadline:
 CREATE FUNCTION DaysUntilDeadline (projectId INT) RETURNS INT
 BEGIN
     DECLARE daysRemaining INT;
